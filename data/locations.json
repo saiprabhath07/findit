@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Block 1",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 2,
+    "name": "Block 2",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 3,
+    "name": "Block 3",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 4,
+    "name": "Block 4",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 5,
+    "name": "Block 4 Auditorium",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 6,
+    "name": "Block 5",
+    "area": "Academic Blocks"
+  },
+  {
+    "id": 7,
+    "name": "Lawn / Stage",
+    "area": "Central Area"
+  },
+  {
+    "id": 8,
+    "name": "Library",
+    "area": "Central Area"
+  },
+  {
+    "id": 9,
+    "name": "Canteen",
+    "area": "Central Area"
+  },
+  {
+    "id": 10,
+    "name": "EWS Workshop",
+    "area": "Central Area"
+  },
+  {
+    "id": 11,
+    "name": "Block 5 Basketball Court",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 12,
+    "name": "Block 5 Labs",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 13,
+    "name": "Football Ground",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 14,
+    "name": "Volleyball Nets",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 15,
+    "name": "NCC Practice Ground (Front)",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 16,
+    "name": "NCC Practice Ground (Back)",
+    "area": "Block 5 Grounds"
+  },
+  {
+    "id": 17,
+    "name": "Pharmacy Block 1",
+    "area": "Pharmacy and Hostel Side"
+  },
+  {
+    "id": 18,
+    "name": "Pharmacy Block 2",
+    "area": "Pharmacy and Hostel Side"
+  },
+  {
+    "id": 19,
+    "name": "Hostel (Boys Side)",
+    "area": "Pharmacy and Hostel Side"
+  },
+  {
+    "id": 20,
+    "name": "Hostel (Girls Side)",
+    "area": "Pharmacy and Hostel Side"
+  },
+  {
+    "id": 21,
+    "name": "Back Gate",
+    "area": "Pharmacy and Hostel Side"
+  },
+  {
+    "id": 22,
+    "name": "Not sure / Somewhere on campus",
+    "area": "Unknown"
+  },
+  {
+    "id": 23,
+    "name": "Main Gate",
+    "area": "Entrance and Parking"
+  },
+  {
+    "id": 24,
+    "name": "Lecturers Parking (Front of Main Gate)",
+    "area": "Entrance and Parking"
+  },
+  {
+    "id": 25,
+    "name": "College Buses Parking",
+    "area": "Entrance and Parking"
+  },
+  {
+    "id": 26,
+    "name": "Student Transport and Personal Vehicles Parking",
+    "area": "Entrance and Parking"
+  },
+  {
+    "id": 27,
+    "name": "Bus Stop (Road to College)",
+    "area": "Entrance and Parking"
+  }
+]

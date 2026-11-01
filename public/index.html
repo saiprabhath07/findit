@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FindIt · Smart Lost &amp; Found</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🔍 FindIt</h1>
+    <p>Smart Lost &amp; Found for campus</p>
+  </header>
+
+  <nav>
+    <button class="tab active" data-tab="report">Report an item</button>
+    <button class="tab" data-tab="browse">Browse items</button>
+  </nav>
+
+  <main>
+    <section id="report" class="panel">
+      <form id="report-form" enctype="multipart/form-data">
+        <div class="seg">
+          <label><input type="radio" name="type" value="lost" checked><span>I lost something</span></label>
+          <label><input type="radio" name="type" value="found"><span>I found something</span></label>
+        </div>
+
+        <label>What is it?
+          <input name="title" required maxlength="80" placeholder="e.g. Black leather wallet">
+        </label>
+
+        <div class="row">
+          <label>Category <select name="category" id="category" required></select></label>
+          <label>Date <input type="date" name="date" id="date" required></label>
+        </div>
+
+        <label><span id="loc-label">Where did you lose it?</span>
+          <select name="locationId" id="location" required></select>
+        </label>
+
+        <label>Description
+          <textarea name="description" rows="2" placeholder="Colour, brand, marks, what's inside…"></textarea>
+        </label>
+
+        <label>Photo (optional, max 3 MB)
+          <input type="file" name="image" accept="image/*">
+        </label>
+
+        <div id="found-fields" class="hidden">
+          <div class="row">
+            <label>Your name <input name="contactName" maxlength="60"></label>
+            <label>Phone or email <input name="contact" maxlength="80"></label>
+          </div>
+          <label>Verification question
+            <input name="verifyQuestion" maxlength="120" placeholder="Something only the real owner would know">
+          </label>
+          <label>Answer (kept secret)
+            <input name="verifyAnswer" maxlength="60">
+          </label>
+          <p class="hint">Avoid yes/no questions. "What is stuck on the back?" beats "Is there a sticker?"</p>
+        </div>
+
+        <button type="submit" id="submit-btn" class="primary">Post item</button>
+      </form>
+      <div id="report-msg"></div>
+      <div id="matches"></div>
+    </section>
+
+    <section id="browse" class="panel hidden">
+      <div class="row">
+        <label>Show
+          <select id="filter-type">
+            <option value="">Lost and found</option>
+            <option value="found">Found items</option>
+            <option value="lost">Lost items</option>
+          </select>
+        </label>
+        <label>Category <select id="filter-category"></select></label>
+      </div>
+      <div id="items"></div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

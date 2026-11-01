@@ -1,0 +1,5 @@
+# keep line endings right on every OS (a .sh with Windows endings breaks on Linux)
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+*.png binary

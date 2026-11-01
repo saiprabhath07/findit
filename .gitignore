@@ -1,0 +1,13 @@
+# dependencies (rebuilt by npm install)
+node_modules/
+
+# runtime data: holds phone numbers, names and photos, so it never goes to GitHub
+data/items.json
+data/claims.json
+uploads/*
+!uploads/.gitkeep
+
+# misc
+.env
+*.log
+.DS_Store
